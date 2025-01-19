@@ -1,0 +1,41 @@
+#memberTable_wrapper .dt-length .dt-input {
+    width: 50px;
+    background-color: var(--dt-html-background);
+}
+
+#memberTable_wrapper .dt-search .dt-input {
+    background-color: var(--dt-html-background);
+    height: 30px;
+}
+
+#memberTable_wrapper .dt-paging nav .dt-paging-button {
+    background: none;
+}
+
+#memberTable_wrapper .dt-paging nav .dt-paging-button:not(.disabled) {
+    background-color: #1871b4;
+    color: #eaeaea !important;
+
+}
+
+#memberTable_wrapper .dt-paging nav .dt-paging-button:not(.disabled) {
+    background-color: #2271b1;
+    color: #eaeaea !important;
+
+}
+
+#memberTable_wrapper .dt-paging nav .dt-paging-button:not(.disabled):hover {
+    background-color: #135e96 !important;
+    color: #eaeaea !important;
+}
+
+
+.form-add-member {
+    margin: 12px auto;
+}
+
+.hover-red-color:hover {
+    background-color: #ff5c5c !important;
+    color: var(--dt-html-background) !important;
+    ;
+}
